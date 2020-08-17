@@ -1,0 +1,88 @@
+        #info {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 42px;
+            font-weight: bold;
+        }
+        /*         
+        .flex-item {} */
+        
+        #page-header {
+            text-align: center;
+        }
+        
+        #main-page-header {
+            text-align: center;
+        }
+        
+        li {
+            list-style-type: none;
+            padding: 0 10px 0 10px;
+        }
+        
+        .circular-square {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        
+        .buttons-container {
+            display: flex;
+            flex-direction: row-reverse;
+            padding-left: 0px;
+            justify-content: center;
+        }
+        
+        p {
+            text-align: center;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        
+        #main-container {
+            display: flex;
+            justify-content: center;
+        }
+        
+        #price-label {
+            color: darkorange;
+        }
+        
+        .basket-container {
+            display: flex;
+            flex-direction: column;
+            background-color: beige;
+            align-items: flex-end;
+            padding: 0 500px 0 500px;
+        }
+        
+        .basket-container button {
+            width: 150px;
+        }
+        /*{Stiu ca nu e bine asa, dar ramasesem fara idei} */
+        
+        .button-order {
+            margin-left: 30px;
+        }
+        
+        .arrow {
+            border: groove black;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 3px;
+        }
+        
+        .up {
+            transform: rotate(-135deg);
+            -webkit-transform: rotate(-135deg);
+        }
+        
+        .down {
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+        }
+        
+        #order-button {
+            width: 50px;
+        }

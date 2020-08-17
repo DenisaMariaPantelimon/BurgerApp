@@ -1,0 +1,11 @@
+{
+  "name": "json_academy",
+  "version": "1.0.0",
+  "description": "Simple first try ",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DPA",
+  "license": "ISC"
+}
