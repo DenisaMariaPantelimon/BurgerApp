@@ -218,3 +218,7 @@ function getBasketTotal() {
     console.log('Basket total ', basketTotal);
     return basketTotal;
 }
+
+function gitTest() {
+    return 'GitTest';
+}
